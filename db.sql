@@ -139,3 +139,9 @@ INSERT INTO `book` (`id`, `isbn`, `title`, `author`, `stock`, `price`) VALUES
 /*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;
+
+
+INSERT INTO `customer` (`id`, `name`, `phone`) VALUES
+	(1,'al-amin','017'),
+    (2,'bepul','015');
+    
